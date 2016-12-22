@@ -16,6 +16,8 @@ public class StressManager : MonoBehaviour {
 	void Start () {
 		if (newGame) {
 			InitializeStress();
+		} else {
+			GetCurrentStressLevel();
 		}
 	}
 	
@@ -26,6 +28,14 @@ public class StressManager : MonoBehaviour {
 
 	void InitializeStress () {
 		PlayerPrefs.SetFloat("Stress", 0);
+		onStressLevelUpdate.Invoke(PlayerPrefs.GetFloat("Stress"));
+	}
+
+	void GetCurrentStressLevel () {
+		if (!PlayerPrefs.HasKey("Stress")) {
+			PlayerPrefs.SetFloat("Stress", 0);
+		}
+		onStressLevelUpdate.Invoke(PlayerPrefs.GetFloat("Stress"));
 	}
 
 	public void DecreaseStress (float amount) {

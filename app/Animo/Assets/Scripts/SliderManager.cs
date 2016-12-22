@@ -15,11 +15,9 @@ public class SliderManager : MonoBehaviour {
     public OnColorUpdate onColorUpdate;
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 		slider = GetComponent<Slider>();
 		currentState = (int)slider.value;
-		GetCurrentStressLevel();
-		UpdateColor();
 	}
 	
 	// Update is called once per frame
@@ -43,8 +41,7 @@ public class SliderManager : MonoBehaviour {
 	}
 
 	public void UpdateStressLevel (float stress) {
-		stress *= slider.maxValue;
-		stress /= 100;
-		slider.value = Mathf.Min(stress, (int) stress);
+		float stressValue = stress * slider.maxValue / 100;
+		slider.value = Mathf.Min(stressValue, (int) stressValue);
 	}
 }
