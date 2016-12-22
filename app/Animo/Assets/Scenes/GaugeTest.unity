@@ -1331,7 +1331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 250f7f5b9283ffc47be7502a25e7f146, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newGame: 1
+  newGame: 0
   onStressLevelUpdate:
     m_PersistentCalls:
       m_Calls:

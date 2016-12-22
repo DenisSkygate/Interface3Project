@@ -10,7 +10,7 @@ public class ChangeSliderFillColor : MonoBehaviour {
 	Image fillImage;
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 		fillImage = GetComponent<Image>();
 	}
 	
