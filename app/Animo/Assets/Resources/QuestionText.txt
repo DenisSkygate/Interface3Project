@@ -1,0 +1,47 @@
+[QUESTION1]
+[SITUATION]
+Concert de Boulbi ? Chaude ? 
+[/SITUATION]
+[REPONSE1]
+Boulbi ? Trop fort! J’arriiiiiiiivve !!!!
+[/REPONSE1]
+[REPONSE2]
+C’est maintenant que tu me préviens ? chui même pas ready !!!!! Douche, make up et j’arrive dans 1h !
+[/REPONSE2]
+[REPONSE3]
+C’est tentant mais il me reste 2 épisodes de Game of Thrones pour finir la saison.
+[/REPONSE3]
+[/QUESTION1]
+[SITUATION]
+Salut toi ! Eh mais t’es ca-non! Tu vas où comme ça ?
+[/SITUATION]
+[REPONSE1]
+Au concert privé de Boulbi, une amie a une place gratos.
+[/REPONSE1]
+[SITUATION]
+Waouw la classe ! J’suis trop jaloux ! Mais… sérieux, tu sors sapée comme ça ? Ca ne va pas t’attirer des problèmes ? 
+[/SITUATION]
+[REPONSE1]
+Oh relax, tout le monde s’habille comme ça dans « les reines du shopping.
+[/REPONSE1]
+[REPONSE2]
+Euh.. T’es styliste toi maintenant ?? Je m’habille comme je veux !
+[/REPONSE2]
+[REPONSE3]
+Oh. Tu crois ? Attends, je vais me changer.
+[/REPONSE3]
+[REPONSE1COLOC]
+OK OK j’ai rien dit. Amuse-toi bien !... et prends full photos ! On veut tout voir !
+[/REPONSECOLOC]
+[REPONSE3COLOC]
+Mouais… c’est peut-être too much ? 
+[/REPONSE3COLOC]
+[REPONSE1]
+Oh relax, tout le monde s’habille comme ça dans « les reines du shopping.
+[/REPONSE1]
+[REPONSE2]
+Euh.. T’es styliste toi maintenant ?? Je m’habille comme je veux !
+[/REPONSE2]
+[REPONSE3]
+bon d’accord, je vais encore essayer autre chose !
+[/REPONSE3]

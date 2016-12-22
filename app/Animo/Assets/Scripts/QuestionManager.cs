@@ -44,6 +44,7 @@ public class QuestionManager : MonoBehaviour {
 
 		else {
 			return succes;
+			
 		}
 	}
 
