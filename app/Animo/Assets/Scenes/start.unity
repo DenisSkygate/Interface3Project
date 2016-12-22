@@ -910,7 +910,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e70ddfec37334a4d85b4f15e492898c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeBeforeLoadScene: 1
   animator: {fileID: 1357998936}
+  sceneName: Question
 --- !u!1 &961102951
 GameObject:
   m_ObjectHideFlags: 0
