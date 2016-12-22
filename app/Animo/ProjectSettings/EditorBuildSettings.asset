@@ -7,5 +7,3 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Question.unity
-  - enabled: 1
-    path: Assets/Scenes/test.unity
