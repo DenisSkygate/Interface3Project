@@ -12,8 +12,9 @@ public class QuestionManager : MonoBehaviour {
 	// Use this for initialization
 	 void Start () {
 
-		manager=GameObject.Find("AnimManager");
-		animator=manager.GetComponent<Animator>();
+		// manager = GameObject.Find("AnimManager");
+		// animator=manager.GetComponent<Animator>();
+		animator = GetComponent<Animator>();
 	
 	 }
 	public void ContinueDialog(int answer){
