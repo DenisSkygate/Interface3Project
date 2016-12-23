@@ -118,6 +118,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be7720d3264b0b942b90ca423fcc89f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayedText: {fileID: 1698312594}
+  path: 
+  textLines: []
+  textLine: 
+  textFileName: 
+  actualLine: 0
+  narrationFrame: {fileID: 157246252}
+  dialogueFrame: {fileID: 1339348309}
+  monologueFrame: {fileID: 1462390415}
+  anim: 0
+  sceneNumber: 0
+  playScene: 0
 --- !u!4 &9117683
 Transform:
   m_ObjectHideFlags: 0
@@ -827,16 +839,6 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LoadScene
       objectReference: {fileID: 0}
-    - target: {fileID: 114000013240648830, guid: 63d025b3c467edb479a14a0cf0fb0424,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000013240648830, guid: 63d025b3c467edb479a14a0cf0fb0424,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 4
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 63d025b3c467edb479a14a0cf0fb0424, type: 2}
   m_IsPrefabParent: 0
@@ -857,6 +859,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   receivedAnswer: 0
+  sceneNumber: 0
+  textLines: []
+  textFile: {fileID: 0}
+  theTextA: {fileID: 0}
+  theTextB: {fileID: 0}
+  theTextC: {fileID: 0}
+  endAtLine: 0
 --- !u!1 &1339348309
 GameObject:
   m_ObjectHideFlags: 0
@@ -1716,6 +1725,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be7720d3264b0b942b90ca423fcc89f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayedText: {fileID: 1698312594}
+  path: 
+  textLines: []
+  textLine: 
+  textFileName: 
+  actualLine: 0
+  narrationFrame: {fileID: 157246252}
+  dialogueFrame: {fileID: 1339348309}
+  monologueFrame: {fileID: 1462390415}
+  anim: 0
+  sceneNumber: 0
+  playScene: 0
 --- !u!61 &1975646043
 BoxCollider2D:
   m_ObjectHideFlags: 0

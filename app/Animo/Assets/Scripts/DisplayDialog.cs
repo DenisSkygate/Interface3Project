@@ -70,11 +70,12 @@ public class DisplayDialog : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GetAnswerAndLoadNextScene();
-        if (sceneLoaded) {
+        GetAnswerAndLoadNextScene();         
+        if (sceneLoaded)
+        {
             PlayLoadedScene(sceneText);
         }
-    }    
+    }   
 
     void OnMouseDown()
     {

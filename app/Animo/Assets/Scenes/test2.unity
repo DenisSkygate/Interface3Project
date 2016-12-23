@@ -859,6 +859,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   receivedAnswer: 0
+  sceneNumber: 0
+  textLines: []
+  textFile: {fileID: 0}
+  theTextA: {fileID: 0}
+  theTextB: {fileID: 0}
+  theTextC: {fileID: 0}
+  endAtLine: 0
 --- !u!1 &1339348309
 GameObject:
   m_ObjectHideFlags: 0
@@ -1771,6 +1778,7 @@ MonoBehaviour:
   sceneLoaded: 0
   sceneText: []
   animatorObject: {fileID: 1289521923}
+  sfx: []
 --- !u!1 &2129115065
 GameObject:
   m_ObjectHideFlags: 0
