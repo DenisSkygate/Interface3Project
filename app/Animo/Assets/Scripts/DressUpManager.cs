@@ -1,8 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class DressUpManager : MonoBehaviour {
+
+	public int nextScene;
 
 	private int currentSkin;
 	private int currentHair;
@@ -123,6 +126,8 @@ public class DressUpManager : MonoBehaviour {
 		PlayerPrefs.SetInt("shoes", currentShoes);
 
 		PlayerPrefs.Save();
+
+		SceneManager.LoadScene(nextScene);
 	}
 
 	public void LoadPlayerPrefs() {
