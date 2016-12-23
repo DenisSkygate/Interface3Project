@@ -1,0 +1,5 @@
+[SCENE1]
+[NARRATION]
+Milieu de l’après-midi dans un kot de Bruxelles. Personnage féminin 1 (nom à préciser) est dans sa chambre. Devant son ordinateur. Elle regarde une série (à préciser).  Son GSM, posé à coté du clavier vibre. C’est un texto d’un de ses camarades de classe.
+[/NARRATION]
+[/SCENE1]
