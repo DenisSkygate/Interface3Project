@@ -3,17 +3,24 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class SkinManager : MonoBehaviour {
-
+	
 	string[] list_name = new string[3];
 	private int skin = 0;
+
+	AudioSource audio;
 
 	void Start(){
 		list_name [0] = "ok_skin_1";
 		list_name [1] = "ok_skin_2";
 		list_name [2] = "ok_skin_3";
+
+		audio = GetComponent<AudioSource> ();
 	}
 
 	public void OnSkinClick(string skinName){
+		if (!audio.isPlaying) {
+			audio.Play ();
+		}
 		for (int index = 0; index < 3; index++) {
 			GameObject newSkin = GameObject.Find (list_name [index]);
 
