@@ -11,25 +11,22 @@ public class QuestionManager : MonoBehaviour {
  
 	// Use this for initialization
 	 void Start () {
-
-		// manager = GameObject.Find("AnimManager");
-		// animator=manager.GetComponent<Animator>();
-		animator = GetComponent<Animator>();
-	
+		animator = GetComponent<Animator>();	
 	 }
 	public void ContinueDialog(int answer){
 		animator.SetBool("needCanvas",false);
 		receivedAnswer=answer;
 	}
 
-	public void LoadSceneWithRandom(int buildIndex){
-
-		buildIndex=RandomBetweenScene(0,1);
-
+	public void LoadSceneWithRandom(){
+		int actualBuildIndex = SceneManager.GetActiveScene().buildIndex;
+		int buildIndexMin = actualBuildIndex + 1;
+		int buildIndexMax = actualBuildIndex + 2;
+		buildIndex=RandomBetweenScene(buildIndexMin, buildIndexMax );
 		SceneManager.LoadScene(buildIndex);
 	}
-	public void LoadScene(int buildIndex){
 
+	public void LoadScene(int buildIndex){
 		SceneManager.LoadScene(buildIndex);
 	}
 
@@ -42,12 +39,8 @@ public class QuestionManager : MonoBehaviour {
 		if (random<=50){
 			return fail;
 		}
-
 		else {
-			return succes;
-			
+			return succes;			
 		}
 	}
-
-
 }
