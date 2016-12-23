@@ -1,0 +1,66 @@
+[QUESTION1]
+[SITUATION]
+Concert de Boulbi ? Chaude ? 
+[/SITUATION]
+[REPONSE1]
+Boulbi ? Trop fort! J’arriiiiiiiivve !!!!
+[/REPONSE1]
+[REPONSE2]
+C’est maintenant que tu me préviens ? chui même pas ready !!!!! Douche, make up et j’arrive dans 1h !
+[/REPONSE2]
+[REPONSE3]
+C’est tentant mais il me reste 2 épisodes de Game of Thrones pour finir la saison.
+[/REPONSE3]
+[/QUESTION1]
+[SITUATION]
+Salut toi ! Eh mais t’es ca-non! Tu vas où comme ça ?
+[/SITUATION]
+[REPONSE1]
+Au concert privé de Boulbi, une amie a une place gratos.
+[/REPONSE1]
+[SITUATION]
+Waouw la classe ! J’suis trop jaloux ! Mais… sérieux, tu sors sapée comme ça ? Ca ne va pas t’attirer des problèmes ? 
+[/SITUATION]
+[REPONSE1]
+Oh relax, tout le monde s’habille comme ça dans « les reines du shopping.
+[/REPONSE1]
+[REPONSE2]
+Euh.. T’es styliste toi maintenant ?? Je m’habille comme je veux !
+[/REPONSE2]
+[REPONSE3]
+Oh. Tu crois ? Attends, je vais me changer.
+[/REPONSE3]
+[SITUATION]
+Le rouge-gorge
+[/SITUATION]
+[REPONSE1]
+C’est quoi ce gros thug… Je vais même pas le calculer, il va me faire rater Boulbi. 
+[/REPONSE1]
+[REPONSE2]
+Pour qui il se prend, celui-là ?!!! je vais lui en coller une moi ! 
+[/REPONSE2]
+[SITUATION]
+Commentaires sur la photo
+[/SITUATION]
+[REPONSE1]
+Non mais j’hallucine, les ba***** ? Je vais les défoncer tout de suite !	
+[/REPONSE1]
+[REPONSE2]
+Je vais même pas me prendre la tête avec leurs conneries’. Toi, j’te zappe, toi j’te bloque.
+[/REPONSE2]
+[SITUATION]
+Poulpe dans le tram
+[/SITUATION]
+[REPONSE1]
+Pas question de se laisser faire ! Vous vous retournez vers le poulpe et lui lancez un « ça va je vous dérange pas ? » suffisamment fort pour que toute la rame entende.	
+[/REPONSE1]
+[REPONSE2]
+Pour se débarrasser des mollusques, rien de mieux qu’une meute ! Vous interpellez les 3 panthères, faisant mine de demander un renseignement.« Excusez-moi, où faut-il descendre pour la salle de concert ? »	
+[/REPONSE2]
+[SITUATION]
+Les poissons devant la salle de concert
+[/SITUATION]
+[REPONSE1]
+J’ai un copain et on va au concert de Boulbi.	
+[/REPONSE1]
+		    
