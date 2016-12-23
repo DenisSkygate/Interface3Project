@@ -13,3 +13,9 @@ Waouw la classe ! J’suis trop jaloux !
 [/DIALOGUE]
 [QUESTION]
 [/SCENE1]
+[SCENE2]
+[DIALOGUE]
+OK OK j'ai rien dit. Amuses-toi bien ! ...et prends full photos ! On veut tout voir !
+[/DIALOGUE]
+[GOTOSCENE7]
+[/SCENE2]

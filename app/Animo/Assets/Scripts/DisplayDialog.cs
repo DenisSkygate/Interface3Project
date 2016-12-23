@@ -211,6 +211,6 @@ public class DisplayDialog : MonoBehaviour
 
     int GetSceneIndex(string stingAtActualLine) {
         int sceneIndex =  int.Parse(stingAtActualLine.Substring(10, 1));
-        return sceneIndex-1;
+        return sceneIndex;
     }
 }

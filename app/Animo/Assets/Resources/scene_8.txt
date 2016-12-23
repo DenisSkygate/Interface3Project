@@ -2,4 +2,5 @@
 [NARRATION]
 Vous arrivez à la station. Il n’y a pas grand monde sur le quai. Le tram arrive dans quelques minutes, autant s’asseoir et écouter un peu de musique. Après quelques instants, votre téléphone vibre. Certains de vos amis ont commenté la photo que vous avez prise avant de partir ! Oh… pas pour dire de belle choses visiblement.
 [/NARRATION]
+[GOTOSCENE13]
 [/SCENE1]

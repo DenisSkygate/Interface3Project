@@ -7,14 +7,15 @@ Je les adore, mais franchement de quoi je me mêle ?! Allez go ! La salle de con
 [/MONOLOGUE]
 [NARRATION]
 Vous marchez sans vous presser. Vous passez devant une terrasse de café où est assis un gros rouge gorge en costume cravate en train de lire un livre. Le rouge gorge vous regarde avec un sourire en coin qui se veut charmeur. 
+*[SOUND1]*
 [/NARRATION]
-[SOUND1]
 [QUESTION]
 [/SCENE1]
 [SCENE2]
 [NARRATION]
 Vous continuez votre route et arrivez à la station de tram
 [/NARRATION]
+[GOTOSCENE8]
 [/SCENE2]
 [SCENE3]
 [NARRATION]
@@ -34,6 +35,7 @@ Vous foncez droit sur lui et enfoncez son livre sur son bec.
 [MONOLOGUE]
 Essaye d’ouvrir ton bec maintenant !
 [/MONOLOGUE]
+[GOTOSCENE8]
 [/SCENE4]
 [SCENE5]
 [NARRATION]
