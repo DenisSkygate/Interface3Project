@@ -118,18 +118,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be7720d3264b0b942b90ca423fcc89f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  displayedText: {fileID: 1698312594}
-  path: 
-  textLines: []
-  textLine: 
-  textFileName: 
-  actualLine: 0
-  narrationFrame: {fileID: 157246252}
-  dialogueFrame: {fileID: 1339348309}
-  monologueFrame: {fileID: 1462390415}
-  anim: 0
-  sceneNumber: 0
-  playScene: 0
 --- !u!4 &9117683
 Transform:
   m_ObjectHideFlags: 0
@@ -1725,18 +1713,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be7720d3264b0b942b90ca423fcc89f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  displayedText: {fileID: 1698312594}
-  path: 
-  textLines: []
-  textLine: 
-  textFileName: 
-  actualLine: 0
-  narrationFrame: {fileID: 157246252}
-  dialogueFrame: {fileID: 1339348309}
-  monologueFrame: {fileID: 1462390415}
-  anim: 0
-  sceneNumber: 0
-  playScene: 0
 --- !u!61 &1975646043
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1773,7 +1749,7 @@ MonoBehaviour:
   dialogueFrame: {fileID: 1339348309}
   monologueFrame: {fileID: 1462390415}
   anim: 0
-  theText: {fileID: 4900000, guid: 92615c77efb00d24eb9e56b13590441c, type: 3}
+  theText: {fileID: 4900000, guid: ef2eb25b97d046a448056159b2cf7605, type: 3}
   sceneNumber: 0
   sceneLoaded: 0
   sceneText: []
