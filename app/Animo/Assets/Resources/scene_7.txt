@@ -1,0 +1,48 @@
+[SCENE1]
+[NARRATION]
+Vous vous retrouvez dans la rue.
+[/NARRATION]
+[MONOLOGUE]
+Je les adore, mais franchement de quoi je me mêle ?! Allez go ! La salle de concert n’est qu’à quelques arrêts de tram. Si je me grouille, je serai même un peu en avance et à nous les bonnes places ! 
+[/MONOLOGUE]
+[NARRATION]
+Vous marchez sans vous presser. Vous passez devant une terrasse de café où est assis un gros rouge gorge en costume cravate en train de lire un livre. Le rouge gorge vous regarde avec un sourire en coin qui se veut charmeur. 
+[/NARRATION]
+[SOUND1]
+[QUESTION]
+[/SCENE1]
+[SCENE2]
+[NARRATION]
+Vous continuez votre route et arrivez à la station de tram
+[/NARRATION]
+[/SCENE2]
+[SCENE3]
+[NARRATION]
+Le rouge-gorge se sent offensé par votre réaction.
+[/NARRATION]
+[DIALOGUE]
+Eh c’est comme ça que vous répondez à un compliment ! Vous pourriez au moins me regarder !
+[/DIALOGUE]
+[NARRATION]
+Vous réfléchissez à une réponse cinglante à lancer au bec de ce grossier animal mais aucune ne vient, ce qui ajoute à votre agacement. 
+[/NARRATION]
+[/SCENE3]
+[SCENE4]
+[NARRATION]
+Vous foncez droit sur lui et enfoncez son livre sur son bec.
+[/NARRATION]
+[MONOLOGUE]
+Essaye d’ouvrir ton bec maintenant !
+[/MONOLOGUE]
+[/SCENE4]
+[SCENE5]
+[NARRATION]
+Le rouge gorge vous voit arriver l’air menaçant et crie à l’agression.
+[/NARRATION]
+[DIALOGUE]
+Au secours, on m’agresse !
+[/DIALOGUE]
+[NARRATION]
+Tout le café se retourne vers vous. L’oiseau de malheur vous fixe avec un regard satisfait, soulagé qu’on ne lui vole pas dans les plumes. Il est content de lui en plus ! Hors de vous, vous le fusillez du regard avant de déguerpir.
+[/NARRATION]
+[/SCENE5]
