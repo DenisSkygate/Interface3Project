@@ -16,7 +16,12 @@ public class txtGenerator : MonoBehaviour
  public  int nextScene;
 
  private int compteur = 0;
+ public Animator questionAnimator;
+ public GameObject colliderClick;
+ public QuestionManager qManager;
 
+ public bool waitForQuestion = false;
+ int nextSkip = 0;
 
 
  void Start(){
@@ -34,7 +39,13 @@ public class txtGenerator : MonoBehaviour
   if ( Input.GetMouseButtonDown(0) )
   {
     
-    print("pouet");
+   if (compteur >= smsPrefabs.Length )
+    {
+      print("load");
+       Application.LoadLevel(nextScene);
+    }
+
+
     Vector3  myPos = positionDown;
 
 
@@ -44,11 +55,30 @@ public class txtGenerator : MonoBehaviour
 
    }
    
+  int sms = qManager.receivedAnswer;
+  if (sms != 0) {
+    compteur += sms;
+    if (sms == 1) {
+      nextSkip = 4;
+    } else {
+      nextSkip = 3 - sms;
+    }
+    waitForQuestion = false;
+    qManager.receivedAnswer = 0;
+  }
 
-   if (smsPrefabs[compteur] == null) {
+   if (smsPrefabs[compteur] == null && !waitForQuestion) {
         // activate Question
+      questionAnimator.SetBool("needCanvas", true);
+      waitForQuestion = true;
    }
 
+   if (waitForQuestion) {
+    if (!questionAnimator.GetBool("needCanvas")) {
+      waitForQuestion = false;
+    }
+    return;
+   }
 
 
    //Create a random position.
@@ -58,13 +88,14 @@ public class txtGenerator : MonoBehaviour
   
    
    //Instantiate a new object at a random position with a random rotation.
+
    Transform newGameObj = Instantiate( smsPrefabs[compteur],myPos, Quaternion.identity ) as Transform;
    newGameObj.SetParent(Canevas);
    newGameObj.localScale = Vector3.one;
    newGameObj.localPosition = myPos;
 
    if (compteur == 0) {
-    topSMS = newGameObj;
+    downSMS = newGameObj;
    }
    if (compteur==1){
     downSMS =newGameObj;
@@ -72,21 +103,21 @@ public class txtGenerator : MonoBehaviour
    }
    if (compteur>1)
    {
-    Destroy(topSMS.gameObject);
+    if (topSMS) {
+      Destroy(topSMS.gameObject);
+    }
     topSMS= downSMS;
     topSMS.localPosition= positionUp;
     downSMS= newGameObj;
 
    }
-   if (compteur == smsPrefabs.Length )
-    {
-       Application.LoadLevel(nextScene);
-    }
+
 
 
    
    
-  compteur += 1;
+  compteur += 1 + nextSkip;
+  nextSkip = 0;
   }
  }
 }
