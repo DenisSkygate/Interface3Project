@@ -355,7 +355,7 @@ Prefab:
     - target: {fileID: 114000012873936546, guid: 63d025b3c467edb479a14a0cf0fb0424,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ContinueDialog
+      value: LoadScene
       objectReference: {fileID: 0}
     - target: {fileID: 114000013240648830, guid: 63d025b3c467edb479a14a0cf0fb0424,
         type: 2}
@@ -366,6 +366,16 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ContinueDialog
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012873936546, guid: 63d025b3c467edb479a14a0cf0fb0424,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013240648830, guid: 63d025b3c467edb479a14a0cf0fb0424,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 63d025b3c467edb479a14a0cf0fb0424, type: 2}
