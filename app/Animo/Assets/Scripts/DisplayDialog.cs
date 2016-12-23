@@ -66,7 +66,7 @@ public class DisplayDialog : MonoBehaviour
             {
                 sceneNumber++;
                 print("sceneNumber : " + sceneNumber);
-                sceneLine++;
+                sceneLine = 0;
                 sceneText = LoadNextScene(sceneNumber);
                 anim = false;
             }
