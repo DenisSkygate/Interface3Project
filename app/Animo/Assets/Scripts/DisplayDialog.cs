@@ -32,9 +32,16 @@ public class DisplayDialog : MonoBehaviour
 
     QuestionManager questionManager;
 
+    public string[] sfx;
+
     // Use this for initialization
     void Start()
     {
+        sfx = new string[3];
+        sfx[0] = "SOUND1";
+        sfx[1] = "SOUND2";
+        sfx[2] = "SOUND3";
+
         animator = animatorObject.GetComponent<Animator>();
         questionManager = animatorObject.GetComponent<QuestionManager>();
 
@@ -63,22 +70,7 @@ public class DisplayDialog : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (anim)
-        {
-            print("playing animation");
-
-            if (!animator.GetBool("needCanvas")) {
-                if (questionManager.receivedAnswer != 0) {                    
-                    sceneNumber+=    questionManager.receivedAnswer  ;      
-                    print("sceneNumber : " + sceneNumber);
-                    sceneLine = 0;
-                    sceneText = LoadNextScene(sceneNumber);
-                    questionManager.receivedAnswer = 0;
-                }                
-
-                anim = false;
-            }
-        } 
+        GetAnswerAndLoadNextScene();         
         if (sceneLoaded)
         {
             PlayLoadedScene(sceneText);
@@ -126,6 +118,9 @@ public class DisplayDialog : MonoBehaviour
         textLine = "";
         for (int i = sceneLine; i < sceneText.Count; i++)
         {
+            if (AtSoundString(sceneText[sceneLine].Replace("\r", ""))) {
+                print(sfx[GetAudioIndex(sceneText[sceneLine].Replace("\r", ""))]);
+            }
             if (sceneText[sceneLine].Replace("\r", "") == "[QUESTION]")
             {
                 sceneLine++;
@@ -156,7 +151,9 @@ public class DisplayDialog : MonoBehaviour
                     monologueFrame.SetActive(true);
                     break;
                 default:
-                    textLine += sceneText[i].Replace("\r", "") + " ";
+                    if (!AtSoundString(sceneText[sceneLine].Replace("\r", ""))) {
+                        textLine += sceneText[i].Replace("\r", "") + " ";
+                    }
                     break;
             }
 
@@ -170,5 +167,34 @@ public class DisplayDialog : MonoBehaviour
             dialogueFrame.SetActive(false);
             monologueFrame.SetActive(false);
         }
+    }
+
+    void GetAnswerAndLoadNextScene() {
+        if (anim)
+        {
+            print("playing animation");
+            if (!animator.GetBool("needCanvas")) {
+                if (questionManager.receivedAnswer != 0) {      
+                    sceneNumber +=   questionManager.receivedAnswer;             
+                    print("sceneNumber : " + sceneNumber);
+                    sceneLine = 0;
+                    sceneText = LoadNextScene(sceneNumber);
+                    questionManager.receivedAnswer = 0;
+                }                
+                anim = false;            
+            }
+        }
+    }
+
+    bool AtSoundString(string stingAtActualLine) {
+        if (stingAtActualLine.Substring(1, 5) == "SOUND") {
+            return true;
+        }
+        return false;
+    }
+
+    int GetAudioIndex(string stingAtActualLine) {
+        int audioIndex =  int.Parse(stingAtActualLine.Substring(6, 1));
+        return audioIndex-1;
     }
 }
