@@ -1,0 +1,26 @@
+[SCENE1]
+[NARRATION]
+Pfiou ! Vous voilà enfin dans la rame du tramway. Et il est bondé évidemment. Pas grave vous descendez dans peu de temps. Vous vous trouvez une petite place confortable à l’arrière, juste à coté de 3 panthères qui discutent de leur journée de travail. Elles ont l’air plutôt sympathique. Alors que vous écoutez distraitement la conversation, vous sentez une odeur d’eau de mer de plus en plus forte. Vous vous retournez et apercevez un gros poulpe collé à vous qui profite de la situation pour mettre ses tentacules n’importe où !
+[/NARRATION]
+[QUESTION]
+[/SCENE1]
+[SCENE2]
+[NARRATION]
+Le silence se fait dans la rame, tout le monde regarde le poulpe qui ne sait plus où se mettre. Il laisse tomber mollement ses tentacules au sol  et se glisse dans un coin sombre en attendant sa station. Vous échangez un regard complice avec les 3 panthères avant de descendre à votre arrêt. On y est presque !
+[/NARRATION]
+[/SCENE2]
+[SCENE3]
+[NARRATION]
+Le silence se fait quelques secondes dans la rame. Le poulpe a l’air un peu gêné, mais très vite les conversations reprennent comme si de rien n’était. Le poulpe se fait de plus en plus envahissant. N’en pouvant plus, vous descendez à la prochaine station. Tant pis si ce n’est pas la vôtre. Vous ravalez votre colère et courez vers la salle de concert.
+[/NARRATION]
+[/SCENE3]
+[SCENE4]
+[NARRATION]
+A peine se retournent-t-elles vers vous qu’elles comprennent la situation. Elles lancent un regard féroce au poulpe en montrant les crocs. Il n’en faut pas plus pour qu’il aille se réfugier à l’autre bout de la rame, terrifié. Vous les remerciez juste à temps pour descendre à votre station. Le concert n’est plus très loin !
+[/NARRATION]
+[/SCENE4]
+[SCENE5]
+[NARRATION]
+Les trois panthères se retournent à peine. L’une vous lance une réponse distraite. Si elles ont remarqué quelque chose, elles ne veulent pas s’en mêler en tout cas. La situation devient intenable ! Vous bousculez le gros visqueux et sortez précipitamment à la prochaine station. Il vous faudra courir…
+[/NARRATION]
+[/SCENE5]

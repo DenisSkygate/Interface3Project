@@ -1,0 +1,8 @@
+[SCENE1]
+[MONOLOGUE]
+Raaaah !
+[/MONOLOGUE]
+[NARRATION]
+A peine avez-vous le temps d’écrire le moindre mot, que 30 commentaires apparaissent en dessous ! Vous vous fatiguez à écrire à toute vitesse sans regarder autour de vous… et surprise le tram vient de partir. Vous n’êtes pas dedans. Il va falloir attendre le prochain, le tout dans une colère noire.
+[/NARRATION]
+[/SCENE1]
