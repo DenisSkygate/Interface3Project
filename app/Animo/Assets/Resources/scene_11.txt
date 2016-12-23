@@ -1,0 +1,5 @@
+[SCENE1]
+[NARRATION]
+Voilà la salle de concert ! Il y a déjà une sacré foule devant, et votre amie n’est pas en vue. Vous lui envoyez un texto pour savoir où elle en est. La réponse ne se fait pas attendre.
+[/NARRATION]
+[/SCENE1]

@@ -15,26 +15,3 @@ Ouf, je les adore, mais ils devraient parfois se mêler de leurs affaires. Allez
 Vous marchez dans la rue sans vous presser. Vous passez devant une terrasse de café où est assis un gros rouge gorge en costume cravate en train de lire un livre. Au moment où personnage féminin 1 passe. Elle s’arrête, interpellée par le bruit, le rouge gorge la regarde avec un sourire en coin qui se veut charmeur. 
 [/NARRATION]
 [/SCENE2]
-[SCENE3]
-[DIALOGUE]
-THIRD blabla 1
-THIRD blabla 2
-THIRD blabla 3
-THIRD blabla 4
-THIRD blabla 5
-[/DIALOGUE]
-[NARRATION]
-THIRD Narration 1
-THIRD Narration 2
-THIRD Narration 3
-THIRD Narration 4
-THIRD Narration 5
-[/NARRATION]
-[MONOLOGUE]
-THIRD self blabla 1
-THIRD self blabla 2
-THIRD self blabla 3
-THIRD self blabla 4
-THIRD self blabla 5
-[/MONOLOGUE]
-[/SCENE3]
