@@ -1,0 +1,33 @@
+[SCENE1]
+[NARRATION]
+Super. Il ne vous reste plus qu’à faire le pied de grue en attendant. 
+Swishh… Swishh… Un bruit étrange se rapproche. A peine à avez-vous le temps de vous rendre compte de ce qui se passe qu’un banc de poisson se dirige droit sur vous. Ils parlent tous en même temps.
+Maintenant ils vous encerclent ! Si vous ne faites rien ils vont vous emporter dans leur course !
+[/NARRATION]
+[QUESTION]
+[/SCENE1]
+[SCENE2]
+[DIALOGUE]
+Boulbi la hooonte! On s’arrache, y’a que les nazes pour kiffer Boulbi.
+[/DIALOGUE]
+[NARRATION]
+Au moins ils partent et vous laissent tranquille. Juste à temps pour que votre amie vous rejoigne. Vous vous enfoncez dans la foule tickets en main pour voir le concert de Boulbi.
+[/NARRATION]
+[/SCENE2]
+[SCENE3]
+[DIALOGUE]
+Ton copain ou ton mac ? Tu crois quoi habillée comme ça ?
+[/DIALOGUE]
+[NARRATION]
+Oh lala ils ont l’air de prendre ça pour une insulte et vous traitent de tous les noms !
+[/NARRATION]
+[DIALOGUE]
+S*****, P******, C*******
+[/DIALOGUE]
+[MONOLOGUE]
+Quelle bande de rustres !
+[/MONOLOGUE]
+[NARRATION]
+heureusement vous n’avez plus à les supporter longtemps. Vous apercevez votre amie et vous précipitez vers elle. Les poissons restent là  à vous lancer des noms d’oiseaux. Ce qui ne manque pas de vous énerver alors que vous vous enfoncez pour voir le concert.
+[/NARRATION]
+[/SCENE3]

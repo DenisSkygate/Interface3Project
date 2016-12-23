@@ -2,4 +2,5 @@
 [NARRATION]
 Milieu de l’après-midi dans un kot de Bruxelles. Vous êtes dans votre chambre devant l'ordinateur. Vous regardez une série.  Votre GSM, posé à coté du clavier, vibre. C’est un texto d’un de vos camarades de classe.
 [/NARRATION]
+[GOTOSCENE2]
 [/SCENE1]

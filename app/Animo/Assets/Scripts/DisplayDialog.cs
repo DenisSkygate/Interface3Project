@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -71,7 +72,7 @@ public class DisplayDialog : MonoBehaviour
     void Update()
     {
         GetAnswerAndLoadNextScene();         
-        if (sceneLoaded)
+        if (sceneLoaded && sceneText.Count > 0)
         {
             PlayLoadedScene(sceneText);
         }
@@ -118,6 +119,9 @@ public class DisplayDialog : MonoBehaviour
         textLine = "";
         for (int i = sceneLine; i < sceneText.Count; i++)
         {
+            if (AtGoToString(sceneText[sceneLine].Replace("\r", ""))) {
+                SceneManager.LoadScene(GetSceneIndex(sceneText[sceneLine].Replace("\r", "")));
+            }
             if (AtSoundString(sceneText[sceneLine].Replace("\r", ""))) {
                 print(sfx[GetAudioIndex(sceneText[sceneLine].Replace("\r", ""))]);
             }
@@ -193,8 +197,20 @@ public class DisplayDialog : MonoBehaviour
         return false;
     }
 
+    bool AtGoToString(string stingAtActualLine) {
+        if (stingAtActualLine.Substring(1, 9) == "GOTOSCENE") {
+            return true;
+        }
+        return false;
+    }
+
     int GetAudioIndex(string stingAtActualLine) {
         int audioIndex =  int.Parse(stingAtActualLine.Substring(6, 1));
         return audioIndex-1;
+    }
+
+    int GetSceneIndex(string stingAtActualLine) {
+        int sceneIndex =  int.Parse(stingAtActualLine.Substring(10, 1));
+        return sceneIndex-1;
     }
 }
