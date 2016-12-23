@@ -1,0 +1,15 @@
+[SCENE1]
+[NARRATION]
+Vous sortez de la chambre et vous dirigez vers la sortie, mais tombez nez à nez avec vos colocataires qui trainent dans le salon. 
+[/NARRATION]
+[DIALOGUE]
+Salut toi ! Eh mais t’es ca-non! Tu vas où comme ça ?
+[/DIALOGUE]
+[DIALOGUE]
+Au concert privé de Boulbi, une amie a une place gratos.
+[/DIALOGUE]
+[DIALOGUE]
+Waouw la classe ! J’suis trop jaloux !
+[/DIALOGUE]
+[QUESTION]
+[/SCENE1]
