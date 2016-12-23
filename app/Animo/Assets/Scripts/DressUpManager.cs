@@ -29,6 +29,8 @@ public class DressUpManager : MonoBehaviour {
 		bottoms = bottomsParent.GetComponentsInChildren<SpriteRenderer>();
 		shoes = shoesParent.GetComponentsInChildren<SpriteRenderer>();
 
+		skins[0].enabled = false;
+
 		Randomize();
 		LoadPlayerPrefs();
 		SetVisibility(true);
@@ -126,6 +128,8 @@ public class DressUpManager : MonoBehaviour {
 	public void LoadPlayerPrefs() {
 		if (PlayerPrefs.HasKey("skin")) {
 			currentSkin = PlayerPrefs.GetInt("skin");
+		} else {
+			currentSkin = 0;
 		}
 
 		if (PlayerPrefs.HasKey("hair")) {
