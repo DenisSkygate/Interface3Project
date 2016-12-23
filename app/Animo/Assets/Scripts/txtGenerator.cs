@@ -39,10 +39,11 @@ public class txtGenerator : MonoBehaviour
   if ( Input.GetMouseButtonDown(0) )
   {
     
-   if (compteur >= smsPrefabs.Length )
+   if (compteur >= 7 )
     {
       print("load");
        Application.LoadLevel(nextScene);
+       return;
     }
 
 
@@ -67,7 +68,7 @@ public class txtGenerator : MonoBehaviour
     qManager.receivedAnswer = 0;
   }
 
-   if (smsPrefabs[compteur] == null && !waitForQuestion) {
+   if (compteur < 7 && smsPrefabs[compteur] == null && !waitForQuestion) {
         // activate Question
       questionAnimator.SetBool("needCanvas", true);
       waitForQuestion = true;
