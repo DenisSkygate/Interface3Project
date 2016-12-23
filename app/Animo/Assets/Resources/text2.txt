@@ -1,0 +1,73 @@
+[SCENE1]
+[DIALOGUE]
+UNITY 2 blabla 1
+UNITY 2 blabla 2
+UNITY 2 blabla 3
+UNITY 2 blabla 4
+UNITY 2 blabla 5
+[/DIALOGUE]
+[NARRATION]
+UNITY 2 Narration 1
+UNITY 2 Narration 2
+UNITY 2 Narration 3
+UNITY 2 Narration 4
+UNITY 2 Narration 5
+[/NARRATION]
+[MONOLOGUE]
+UNITY 2 self blabla 1
+UNITY 2 self blabla 2
+[SOUND1]
+UNITY 2 self blabla 3
+UNITY 2 self blabla 4
+UNITY 2 self blabla 5
+[/MONOLOGUE]
+[QUESTION]
+[/SCENE1]
+[SCENE2]
+[DIALOGUE]
+UNITY 2 SECOND blabla 1
+[SOUND2]
+UNITY 2 SECOND blabla 2
+UNITY 2 SECOND blabla 3
+UNITY 2 SECOND blabla 4
+UNITY 2 SECOND blabla 5
+[/DIALOGUE]
+[NARRATION]
+UNITY 2 SECOND Narration 1
+UNITY 2 SECOND Narration 2
+UNITY 2 SECOND Narration 3
+UNITY 2 SECOND Narration 4
+UNITY 2 SECOND Narration 5
+[/NARRATION]
+[MONOLOGUE]
+UNITY 2 SECOND self blabla 1
+UNITY 2 SECOND self blabla 2
+UNITY 2 SECOND self blabla 3
+UNITY 2 SECOND self blabla 4
+UNITY 2 SECOND self blabla 5
+[/MONOLOGUE]
+[/SCENE2]
+[SCENE3]
+[DIALOGUE]
+UNITY 2 THIRD blabla 1
+UNITY 2 THIRD blabla 2
+UNITY 2 THIRD blabla 3
+UNITY 2 THIRD blabla 4
+UNITY 2 THIRD blabla 5
+[/DIALOGUE]
+[NARRATION]
+[SOUND3]
+UNITY 2 THIRD Narration 1
+UNITY 2 THIRD Narration 2
+UNITY 2 THIRD Narration 3
+UNITY 2 THIRD Narration 4
+UNITY 2 THIRD Narration 5
+[/NARRATION]
+[MONOLOGUE]
+UNITY 2 THIRD self blabla 1
+UNITY 2 THIRD self blabla 2
+UNITY 2 THIRD self blabla 3
+UNITY 2 THIRD self blabla 4
+UNITY 2 THIRD self blabla 5
+[/MONOLOGUE]
+[/SCENE3]

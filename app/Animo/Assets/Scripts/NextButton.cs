@@ -7,12 +7,14 @@ public class NextButton : MonoBehaviour {
 	private float time = 0f;
 	public Animator animator;
 	public string sceneName;
-	// Use this for initialization
-	void Start () {
+	AudioSource audio;
 
+	void Start(){
+		audio = GetComponent<AudioSource> ();
 	}
 
 	void Update(){
+		
 		if (animator.GetBool ("click_on_next")) {
 			time += Time.deltaTime;
 			if (time >= timeBeforeLoadScene) {
@@ -22,6 +24,9 @@ public class NextButton : MonoBehaviour {
 	}
 
 	public void ClickOnNext(){
+		if (!audio.isPlaying) {
+			audio.Play ();
+		}
 		animator.SetBool ("click_on_next", true);
 	}
 }
