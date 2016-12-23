@@ -30,18 +30,37 @@ Euh.. T’es styliste toi maintenant ?? Je m’habille comme je veux !
 [REPONSE3]
 Oh. Tu crois ? Attends, je vais me changer.
 [/REPONSE3]
-[REPONSE1COLOC]
-OK OK j’ai rien dit. Amuse-toi bien !... et prends full photos ! On veut tout voir !
-[/REPONSECOLOC]
-[REPONSE3COLOC]
-Mouais… c’est peut-être too much ? 
-[/REPONSE3COLOC]
+[SITUATION]
+Le rouge-gorge
+[/SITUATION]
 [REPONSE1]
-Oh relax, tout le monde s’habille comme ça dans « les reines du shopping.
+C’est quoi ce gros thug… Je vais même pas le calculer, il va me faire rater Boulbi. 
 [/REPONSE1]
 [REPONSE2]
-Euh.. T’es styliste toi maintenant ?? Je m’habille comme je veux !
+Pour qui il se prend, celui-là ?!!! je vais lui en coller une moi ! 
 [/REPONSE2]
-[REPONSE3]
-bon d’accord, je vais encore essayer autre chose !
-[/REPONSE3]
+[SITUATION]
+Commentaires sur la photo
+[/SITUATION]
+[REPONSE1]
+Non mais j’hallucine, les ba***** ? Je vais les défoncer tout de suite !	
+[/REPONSE1]
+[REPONSE2]
+Je vais même pas me prendre la tête avec leurs conneries’. Toi, j’te zappe, toi j’te bloque.
+[/REPONSE2]
+[SITUATION]
+Poulpe dans le tram
+[/SITUATION]
+[REPONSE1]
+Pas question de se laisser faire ! Vous vous retournez vers le poulpe et lui lancez un « ça va je vous dérange pas ? » suffisamment fort pour que toute la rame entende.	
+[/REPONSE1]
+[REPONSE2]
+Pour se débarrasser des mollusques, rien de mieux qu’une meute ! Vous interpellez les 3 panthères, faisant mine de demander un renseignement.« Excusez-moi, où faut-il descendre pour la salle de concert ? »	
+[/REPONSE2]
+[SITUATION]
+Les poissons devant la salle de concert
+[/SITUATION]
+[REPONSE1]
+J’ai un copain et on va au concert de Boulbi.	
+[/REPONSE1]
+		    
