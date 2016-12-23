@@ -63,27 +63,9 @@ public class DisplayDialog : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (anim)
-        {
-            print("playing animation");
-            if (!animator.GetBool("needCanvas")) {
-                if (questionManager.receivedAnswer != 0) {                    
-                    if (questionManager.receivedAnswer == 1) {                    
-                        sceneNumber++;
-                    }
-                    else if (questionManager.receivedAnswer == 2) {                    
-                        sceneNumber += 2;
-                    }
-                    else if (questionManager.receivedAnswer == 2) {                    
-                        sceneNumber += 3;
-                    }                
-                    print("sceneNumber : " + sceneNumber);
-                    sceneLine = 0;
-                    sceneText = LoadNextScene(sceneNumber);
-                    questionManager.receivedAnswer = 0;
-                }                
-                anim = false;
-            }
+        GetAnswerAndLoadNextScene();
+        if (sceneLoaded)) {
+            PlayLoadedScene(sceneText);
         }
     }    
 
@@ -171,6 +153,23 @@ public class DisplayDialog : MonoBehaviour
             narrationFrame.SetActive(false);
             dialogueFrame.SetActive(false);
             monologueFrame.SetActive(false);
+        }
+    }
+
+    void GetAnswerAndLoadNextScene() {
+        if (anim)
+        {
+            print("playing animation");
+            if (!animator.GetBool("needCanvas")) {
+                if (questionManager.receivedAnswer != 0) {      
+                    sceneNumber +=   questionManager.receivedAnswer;             
+                    print("sceneNumber : " + sceneNumber);
+                    sceneLine = 0;
+                    sceneText = LoadNextScene(sceneNumber);
+                    questionManager.receivedAnswer = 0;
+                }                
+                anim = false;            
+            }
         }
     }
 }
