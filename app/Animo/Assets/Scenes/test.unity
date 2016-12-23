@@ -101,7 +101,7 @@ GameObject:
   - 114: {fileID: 9117682}
   - 114: {fileID: 9117684}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -118,18 +118,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be7720d3264b0b942b90ca423fcc89f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  displayedText: {fileID: 1698312594}
-  path: 
-  textLines: []
-  textLine: 
-  textFileName: 
-  actualLine: 0
-  narrationFrame: {fileID: 157246252}
-  dialogueFrame: {fileID: 1339348309}
-  monologueFrame: {fileID: 1462390415}
-  anim: 0
-  sceneNumber: 0
-  playScene: 0
 --- !u!4 &9117683
 Transform:
   m_ObjectHideFlags: 0
@@ -1728,18 +1716,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be7720d3264b0b942b90ca423fcc89f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  displayedText: {fileID: 1698312594}
-  path: 
-  textLines: []
-  textLine: 
-  textFileName: 
-  actualLine: 0
-  narrationFrame: {fileID: 157246252}
-  dialogueFrame: {fileID: 1339348309}
-  monologueFrame: {fileID: 1462390415}
-  anim: 0
-  sceneNumber: 0
-  playScene: 0
 --- !u!61 &1975646043
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1780,6 +1756,7 @@ MonoBehaviour:
   sceneNumber: 0
   sceneLoaded: 0
   sceneText: []
+  animatorObject: {fileID: 157298284}
 --- !u!1 &2129115065
 GameObject:
   m_ObjectHideFlags: 0

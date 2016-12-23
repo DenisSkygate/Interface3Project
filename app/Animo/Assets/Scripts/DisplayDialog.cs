@@ -27,11 +27,16 @@ public class DisplayDialog : MonoBehaviour
     public bool sceneLoaded;
     public List<string> sceneText;
 
+    public GameObject animatorObject;
+    Animator animator;
+
+    QuestionManager questionManager;
+
     // Use this for initialization
     void Start()
     {
-        // string textFileName = "text.txt";
-        // path = Application.dataPath + "/Resources/" + textFileName;
+        animator = animatorObject.GetComponent<Animator>();
+        questionManager = animatorObject.GetComponent<QuestionManager>();
 
         textLine = "";
         displayedText.text = "";
@@ -45,7 +50,6 @@ public class DisplayDialog : MonoBehaviour
 
         anim = false;
         textLines = theText.text.Split('\n');
-        // textLines = File.ReadAllLines(path);
 
         sceneText = LoadNextScene(sceneNumber);
 
@@ -62,28 +66,24 @@ public class DisplayDialog : MonoBehaviour
         if (anim)
         {
             print("playing animation");
-            if (Input.GetKeyUp(KeyCode.A))
-            {
-                sceneNumber++;
-                print("sceneNumber : " + sceneNumber);
-                sceneLine = 0;
-                sceneText = LoadNextScene(sceneNumber);
-                anim = false;
-            }
-            else if (Input.GetKeyUp(KeyCode.B))
-            {
-                sceneNumber += 2;
-                print("sceneNumber : " + sceneNumber);
-                sceneLine = 0;
-                sceneText = LoadNextScene(sceneNumber);
-                anim = false;
-            }
-        }
-        if (sceneLoaded) {
 
+            if (!animator.GetBool("needCanvas")) {
+                if (questionManager.receivedAnswer != 0) {                    
+                    sceneNumber+=    questionManager.receivedAnswer  ;      
+                    print("sceneNumber : " + sceneNumber);
+                    sceneLine = 0;
+                    sceneText = LoadNextScene(sceneNumber);
+                    questionManager.receivedAnswer = 0;
+                }                
+
+                anim = false;
+            }
+        } 
+        if (sceneLoaded)
+        {
             PlayLoadedScene(sceneText);
         }
-    }    
+    }   
 
     void OnMouseDown()
     {
@@ -91,7 +91,6 @@ public class DisplayDialog : MonoBehaviour
         {
             PlayLoadedScene(sceneText);
         }
-
     }
     
     List<string> LoadNextScene(int sceneNumber)
@@ -130,6 +129,7 @@ public class DisplayDialog : MonoBehaviour
             if (sceneText[sceneLine].Replace("\r", "") == "[QUESTION]")
             {
                 sceneLine++;
+                animator.SetBool("needCanvas", true);
                 anim = true;
                 break;
             }
